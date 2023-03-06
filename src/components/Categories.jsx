@@ -2,7 +2,7 @@
 import { categories } from '../data'
 const Categories = () => {
     return (
-        <div className="w-full lg:sticky lg:top-20 lg:h-screen flex-col bg-white items-center p-5 mt-8 rounded-lg justify-center space-y-2">
+        <div className="w-[95%] mx-auto lg:w-[80%] lg:sticky lg:top-20 lg:h-screen flex-col bg-white items-center p-5 mt-8 rounded-lg justify-center space-y-2">
             <p className="text-2xl font-bold pb-5">Categories</p>
             <div className="flex lg:flex-col overflow-x-scroll items-center justify-center space-x-4 lg:space-y-3">
                 {categories.map((category) => (

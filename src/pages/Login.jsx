@@ -5,7 +5,7 @@ const Login = () => {
     return (
         <div className="bg-gray-100 w-full flex items-center justify-center h-screen">
             {/* home floating button at top left */}
-            <div className="absolute z-10 left-10 top-10 flex items-center justify-center h-fit p-4 w-fit active:scale-95 rounded-lg shadow-md bg-blue-500 text-white cursor-pointer hover:bg-blue-600 duration-200 active:shadow-sm">
+            <div className="absolute z-10 left-10 top-24 flex items-center justify-center h-fit p-4 w-fit active:scale-95 rounded-lg shadow-md bg-blue-500 text-white cursor-pointer hover:bg-blue-600 duration-200 active:shadow-sm">
                 <Link to="/" className="font-bold text-lg">Home</Link>
             </div>
             <video autoPlay loop muted className="absolute brightness-50 blur-sm object-cover w-full h-full">
