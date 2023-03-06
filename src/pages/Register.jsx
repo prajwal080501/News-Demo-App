@@ -11,17 +11,17 @@ const Register = () => {
     <video autoPlay loop muted className="absolute brightness-50 blur-sm object-cover w-full h-full">
         <source src={video} type="video/mp4" />
     </video>
-    <div className="flex bg-white w-fit p-5 rounded-lg drop-shadow-md h-fit flex-col items-center justify-center">
+    <div className="flex bg-white w-[90%] mx-auto p-5 rounded-lg drop-shadow-md h-fit flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center space-y-5">
             <div className="h-fit px-3 w-fit flex items-center cursor-pointer">
                 <p className="text-3xl font-bold">News<span className="text-blue-500">Stand</span></p>
             </div>
             <p className="text-3xl font-bold mt-5">Register</p>
-            <div className="flex flex-col items-center justify-center space-y-2">
-                <input type="text" placeholder="Username" className="w-96 h-10 rounded-lg border-2 border-gray-300 p-2 outline-none focus:border-blue-500 duration-200 ease-linear" />
-                <input type="email" placeholder="Email" className="w-96 h-10 rounded-lg border-2 border-gray-300 p-2 outline-none focus:border-blue-500 duration-200 ease-linear" />
-                <input type="password" placeholder="Password" className="w-96 h-10 rounded-lg border-2 border-gray-300 p-2 outline-none focus:border-blue-500 duration-200" />
-            </div>
+            <form className="flex flex-col items-center justify-center space-y-2">
+                <input type="text" placeholder="Username" className="w-[95%] h-10 rounded-lg border-2 border-gray-300 p-2 outline-none focus:border-blue-500 duration-200 ease-linear" />
+                <input type="email" placeholder="Email" className="w-[95%] h-10 rounded-lg border-2 border-gray-300 p-2 outline-none focus:border-blue-500 duration-200 ease-linear" />
+                <input type="password" placeholder="Password" className="w-[95%] h-10 rounded-lg border-2 border-gray-300 p-2 outline-none focus:border-blue-500 duration-200" />
+            </form>
             <button className="text-lg font-semibold bg-blue-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-blue-600 duration-200 active:scale-95">Register</button>
         </div>
         <p className="text-lg text-gray-400 font-semibold mt-5">Already have an account? <Link to="/login" className="text-blue-500 cursor-pointer">Login</Link></p>
